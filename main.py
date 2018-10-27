@@ -79,7 +79,7 @@ while True:
 				tmp = maps
 				maps = mobKiller(tmp)
 			elif i.key == pygame.K_i:
-				openInv(inv,maps, player, sc)
+				openInv(inv,maps,sc)
 			else:
 				print('ERROR KEY')
 
